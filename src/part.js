@@ -1,6 +1,6 @@
 class Part{
   constructor({name, type, value}) {
-    this.name = name,
+    this.name = name;
     this.validTypes = [
     'shell',
     'hyperdrive',
@@ -9,8 +9,8 @@ class Part{
     'landing gear',
     undefined
   ],
-    this.type = this.validTypes.includes(type) ? type : undefined,
-    this.value = value,
+    this.type = this.validTypes.includes(type) ? type : undefined;
+    this.value = value;
     this.broken = false;
 
   }
